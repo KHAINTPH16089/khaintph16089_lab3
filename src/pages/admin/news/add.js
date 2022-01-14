@@ -1,5 +1,5 @@
 import NavAdmin from "../../../components/NavAdmin";
-import table from "./table";
+
 
 const AdminNewsAdd = {
     render(){
