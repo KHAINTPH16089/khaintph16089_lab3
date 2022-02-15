@@ -1,18 +1,17 @@
-import Banner from "../components/Banner";
-import newList from "../components/newlist";
-import newlist_2 from "../components/newlist_2";
 import header from "../components/header";
 import footer from "../components/footer";
-const homePage = {
-    async render() {
-        return /* html */`
+import chitiet from "../components/chitiet";
+
+const chiTietSanPham = {
+    async render(id){
+        return/*html*/`
         <div class="container-2xl mx-auto">
-            <header id="header">
+            <header>
                 ${header.render()}
             </header>
             <main>
-                <div class="news">
-                    ${await newList.render()}
+                <div>
+                    ${await chitiet.render(id)}
                 </div>
             </main>
             <footer>
@@ -20,6 +19,6 @@ const homePage = {
             </footer>
         </div>
         `;
-    },
+    }
 };
-export default homePage;
+export default chiTietSanPham;

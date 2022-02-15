@@ -1,0 +1,55 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "email": "khainhokkazuo@gmail.com",
+      "password": "$2a$10$BYHfd0O2DW2seCaN/9DdK.3IqnDh/Ytk4fVxtS3A4/IkrtOolFdNW",
+      "id": 1,
+      "vaitro": 1
+    },
+    {
+      "email": "khainhok@gmail.com",
+      "password": "$2a$10$eFtZYShiEEx/X4Fw4GqQj.Fsa012zF6SBYQogTb2JCQqJdeeQYdKm",
+      "id": 2,
+      "vaitro": 2
+    },
+    {
+      "email": "khaintph16089@fpt.edu.vn",
+      "password": "$2a$10$KyTrevh0RfqYalXjR6X8Ce7wmqTEe2tcqTSSUgKrTwK04hL.Kcigi",
+      "vaitro": "2",
+      "id": 3
+    },
+    {
+      "email": "khai@gmail.com",
+      "password": "$2a$10$iwfiTaYZP/PtdsSzizh6DuoFGXbDIM9mj7A1y.1v8jL4ZnAc4Bzmi",
+      "vaitro": "2",
+      "id": 4
+    }
+  ],
+  "product": [
+    {
+      "ten": "ạdhffjac",
+      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773643/hncqkskyfwqftbtajllk.jpg",
+      "gia": "1000000",
+      "id": 6
+    },
+    {
+      "ten": "ayaka...",
+      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773893/e5omcnmmgezodyggxykn.jpg",
+      "gia": "1000000",
+      "id": 7
+    },
+    {
+      "ten": "Kamisato Ayaka",
+      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773893/e5omcnmmgezodyggxykn.jpg",
+      "gia": "1000000",
+      "id": 8
+    },
+    {
+      "ten": "Kamisato Ayaka",
+      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773927/k4sqsi6vjtb3bgfftakv.jpg",
+      "gia": "1000000",
+      "id": 9
+    }
+  ]
+}
