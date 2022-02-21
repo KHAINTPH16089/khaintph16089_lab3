@@ -10,6 +10,9 @@ const homePage = {
             <header id="header">
                 ${header.render()}
             </header>
+            <div>
+                ${Banner.render()}
+            </div>
             <main>
                 <div class="news">
                     ${await newList.render()}
@@ -21,5 +24,8 @@ const homePage = {
         </div>
         `;
     },
+    afterRender(){
+        header.afterRender();
+    }
 };
 export default homePage;

@@ -15,8 +15,8 @@ const newList = {
               <div class="">
                 <img class="w-full" src="${data.img}" alt=""><br>
                 <div class="text-center">
-                  <a href="chitiet/${data.id}" class="hover:text-purple-400">${data.ten}</a>
-                  <p class="text-sm font-medium">${data.gia}<u>đ</u></p>
+                  <a href="chitiet/${data.id}" class="hover:text-purple-400">${data.name}</a>
+                  <p class="text-sm font-medium">${data.price}<u>đ</u></p>
                 </div>
               </div>
             `

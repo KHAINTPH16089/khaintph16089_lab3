@@ -16,3 +16,7 @@ export const remove = (id) => {
     const url = `/product/${id}`;
     return instance.delete(url);
 }
+export const update = (post) => {
+    const url = `/product/${post.id}`;
+    return instance.put(url, post);
+}

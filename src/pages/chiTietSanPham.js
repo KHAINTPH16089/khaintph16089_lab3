@@ -19,6 +19,9 @@ const chiTietSanPham = {
             </footer>
         </div>
         `;
+    },
+    afterRender(){
+        chitiet.afterRender();
     }
 };
 export default chiTietSanPham;

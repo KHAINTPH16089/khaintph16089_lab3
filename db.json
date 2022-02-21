@@ -24,32 +24,29 @@
       "password": "$2a$10$iwfiTaYZP/PtdsSzizh6DuoFGXbDIM9mj7A1y.1v8jL4ZnAc4Bzmi",
       "vaitro": "2",
       "id": 4
+    },
+    {
+      "email": "khai123@gmail.com",
+      "password": "$2a$10$qyS.2ZxtmM3HBgWhSNSe4uIma1alKAITjKzoumYK.z0ignidzP3qO",
+      "vaitro": "2",
+      "id": 5
     }
   ],
   "product": [
     {
-      "ten": "ạdhffjac",
-      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773643/hncqkskyfwqftbtajllk.jpg",
-      "gia": "1000000",
-      "id": 6
+      "id": 1,
+      "name": "klee",
+      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1645382091/qsaeb0spzzmrnbozhevs.jpg",
+      "desc": "klee .................\n                                        \n                                        \n                                        ",
+      "price": "123456"
     },
     {
-      "ten": "ayaka...",
-      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773893/e5omcnmmgezodyggxykn.jpg",
-      "gia": "1000000",
-      "id": 7
-    },
-    {
-      "ten": "Kamisato Ayaka",
-      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773893/e5omcnmmgezodyggxykn.jpg",
-      "gia": "1000000",
-      "id": 8
-    },
-    {
-      "ten": "Kamisato Ayaka",
-      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1644773927/k4sqsi6vjtb3bgfftakv.jpg",
-      "gia": "1000000",
-      "id": 9
+      "name": "Hutao",
+      "img": "http://res.cloudinary.com/dbbbqe0vr/image/upload/v1645385097/wrqipoeq7560edjckylt.jpg",
+      "desc": "Hutao bán hòm                                        ",
+      "price": "200000",
+      "id": 2
     }
-  ]
+  ],
+  "categoris": []
 }
