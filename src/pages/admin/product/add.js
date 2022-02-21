@@ -75,6 +75,7 @@ const addNewProduct = {
             imgPreview.src = URL.createObjectURL(e.target.files[0]);
         });
         // Submit form
+
         formAdd.addEventListener("submit", async (e) => {
             e.preventDefault();
             const file = document.querySelector("#images").files[0];
@@ -99,7 +100,7 @@ const addNewProduct = {
                 toastr.success("Thêm sản phẩm mới thành công");
                 window.location.href = "/#/admin/product";
             });
-            reRender(adminProduct, "#products");
+            reRender(adminProduct, "#app");
         });
     },
 };
