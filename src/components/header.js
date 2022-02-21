@@ -6,12 +6,12 @@ const Banner = {
     render() {
         return /* html */`
         
-      <div class="bg-blue-600 pl-10 text-white flex">
+      <div class="bg-blue-600 pl-10 text-white flex h-8 pt-1">
       RIKKA SHOP - cung cấp đồ phụ kiện anime, cosplay chất lượng
         <div class="flex ml-96">
           ${localStorage.getItem("user") ? `<ul class="flex">
           
-          <li><a  id="logout" class="px-4 py-5 hover:text-white cursor-pointer">Logout</a></li>
+          <li><a  id="logout" class="px-4 py-5 hover:text-white cursor-pointer">Đăng xuất</a></li>
       </ul>` : `<ul class="flex">
       <li><a href="sign/signin" class="px-4 hover:text-white">Đăng Nhập</a></li>
       <li><a href="sign/signup" class="hover:text-white">Đăng ký</a></li>
